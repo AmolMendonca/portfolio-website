@@ -65,7 +65,7 @@ const COMMANDS = {
   experience:
     "[amolmendonca] ~ $ I'm currently working on a startup - MediGate, with 2 of my best friends. Would love to chat if you're interested in learning more!",
   contact:
-    '[amolmendonca] ~ $You can contact me on any of the following links:<br>["<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/amolmendonca/" class="social link">LinkedIn</a>", "<div>amolm@umich.edu</div>"]',
+    '[amolmendonca] ~ $ You can contact me on any of the following: amolm@umich.edu / (248)-832-3029',
 
 };
 
