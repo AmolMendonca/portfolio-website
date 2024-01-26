@@ -41,6 +41,10 @@ function execute(input) {
     return;
   }
 
+  else if (input === 'clear') {
+    clearTerminal();
+  }
+
   // Additional command handling logic...
   output = `<div class="terminal-line"><span class="success">➜</span> <span class="directory">~</span> ${input}</div>`;
   if (!COMMANDS.hasOwnProperty(input)) {
@@ -53,9 +57,19 @@ function execute(input) {
   terminalOutput.scrollTop = terminalOutput.scrollHeight;
 }
 
+function clearTerminal() {
+  terminalOutput.innerHTML = "";
+  displayHelp();
+}
+
+function displayHelp() {
+  const helpOutput = COMMANDS['help'];
+  terminalOutput.innerHTML += `<div class="terminal-line">${helpOutput}</div>`;
+}
+
 const COMMANDS = {
   help:
-    '[amolmendonca] ~ $ Supported commands: ["<span class="code">about</span>", "<span class="code">experience</span>", "<span class="code">education</span>", "<span class="code">skills</span>", "<span class="code">contact</span>"]',
+    '[amolmendonca] ~ $ Supported commands: ["<span class="code">about</span>", "<span class="code">experience</span>", "<span class="code">education</span>", "<span class="code">skills</span>", "<span class="code">contact</span>", "<span class = code>clear</span>"]',
   about:
     "[amolmendonca] ~ $ Hello! I'm Amol Mendonca. I’m a 19 year old developer with expertise in full-stack development!",
   skills:
@@ -66,7 +80,8 @@ const COMMANDS = {
     "[amolmendonca] ~ $ I'm currently working on a startup - MediGate, with 2 of my best friends. Would love to chat if you're interested in learning more!",
   contact:
     '[amolmendonca] ~ $ You can contact me on: <span class="code">amolm@umich.edu</span> or <span class="code">(248)-832-3029 </span>',
-
+  clear: 
+    ' '
 };
 
 // Rest of your code...
