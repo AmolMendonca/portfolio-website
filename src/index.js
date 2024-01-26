@@ -57,15 +57,15 @@ const COMMANDS = {
   help:
     '[amolmendonca] ~ $ Supported commands: ["<span class="code">about</span>", "<span class="code">experience</span>", "<span class="code">education</span>", "<span class="code">skills</span>", "<span class="code">contact</span>"]',
   about:
-    "[amolmendonca] ~ $ Hello <br>I'm Amol Mendonca. I’m a 19 year old developer with expertise in full-stack development!",
+    "[amolmendonca] ~ $ Hello! I'm Amol Mendonca. I’m a 19 year old developer with expertise in full-stack development!",
   skills:
     '[amolmendonca] ~ $ <span class="code">Languages:</span> Swift, SwiftUI, HTML, CSS, JavaScript, C++, Java, Python, R',
   education:
-    "[amolmendonca] ~ $ Bachelors of Science in Computer Science @ University of Michigan - Ann Arbor",
+    "[amolmendonca] ~ $ Bachelors of Science in Computer Science @ <span class='umich'>University of Michigan</span> - <span class = 'ann'>Ann Arbor</span>",
   experience:
     "[amolmendonca] ~ $ I'm currently working on a startup - MediGate, with 2 of my best friends. Would love to chat if you're interested in learning more!",
   contact:
-    '[amolmendonca] ~ $ You can contact me on any of the following: amolm@umich.edu / (248)-832-3029',
+    '[amolmendonca] ~ $ You can contact me on: <span class="code">amolm@umich.edu</span> or <span class="code">(248)-832-3029 </span>',
 
 };
 
