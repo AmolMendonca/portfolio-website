@@ -73,7 +73,7 @@ const COMMANDS = {
   about:
     "[amolmendonca] ~ $ Hello! I'm Amol Mendonca. I’m a 19 year old developer with expertise in full-stack development!",
   skills:
-    '[amolmendonca] ~ $ <span class="code">Frontend:</span>Swift, SwiftUI, HTML, CSS, JavaScript<br><span class="code">Backend:</span>C++, Java, Python, MongoDB, MySQL, R',
+    '[amolmendonca] ~ $ <span class="code">Frontend: </span>Swift, SwiftUI, HTML, CSS, JavaScript<br><span class="code">Backend: </span>C++, Java, Python, MongoDB, MySQL, R',
   education:
     "[amolmendonca] ~ $ Bachelors of Science in Computer Science @ <span class='umich'>University of Michigan</span> - <span class = 'ann'>Ann Arbor</span>",
   experience:
